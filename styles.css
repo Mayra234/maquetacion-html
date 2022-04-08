@@ -45,7 +45,7 @@ header {
   color: white;
 }
 #container-text {
-  padding: 30px 300px;
+  padding: 100px 300px;
   font-family: 'old';
   font-size: 40px;
   text-align: center;
@@ -117,6 +117,8 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'old';
+  font-size: 40px;
 }
 #images-content-white {
   width: 600px;
@@ -136,12 +138,19 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'old';
+  font-size: 40px;
 }
 
 .container-pink > p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#pink-get-text {
+  font-size: 15px;
+  padding-top: 40px;
+  font-family: 'dongle';
 }
 
 /*contenedor caja blanca 2*/
@@ -156,6 +165,7 @@ header {
   text-align: center;
 }
 #image-container-white2 {
+  padding: 100px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
 }
@@ -185,6 +195,7 @@ header {
 /*Footer*/
 
 footer {
+  padding: 100px;
   background: #c7c7c7;
   text-align: center;
   display: flex;
@@ -204,7 +215,7 @@ footer {
 /*fuentes*/
 @font-face {
   font-family: 'old';
-  src: url('libs/fonts/old-standard-tt/OldStandardTT-Italic.ttf');
+  src: url('libs/fonts/im-fell-double-pica/IMFellDoublePica-Regular.ttf');
 }
 @font-face {
   font-family: 'dongle';
